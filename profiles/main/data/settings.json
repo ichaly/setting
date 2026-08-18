@@ -13,7 +13,7 @@
         "configChatWebToolsMode": "Ask every time",
         "configChatAskModeUseTools": true,
         "configChatEditFileTool": false,
-        "configChatTerminalRunMode": "fullAccess",
+        "configChatTerminalRunMode": "autoReview",
         "configChatCommandDenyList": "rm,mv,sudo,wget,curl,chown",
         "configChatCommandAllowlist": "",
         "configChatAutoRunMcpTools": true,
@@ -44,14 +44,7 @@
         "configMobileAllowRemoteControl": false,
         "configMobileKeepAwake": false
     },
-    "syncSettings.additionalFiles": [],
-    "syncSettings.resources": [
-        "extensions",
-        "keybindings",
-        "settings",
-        "snippets",
-        "uiState"
-    ],
-    "workbench.colorTheme": "GitHub Dark",
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.colorTheme": "GitHub Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": true
 }
